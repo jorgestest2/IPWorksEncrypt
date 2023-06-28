@@ -3,16 +3,16 @@
     <ProjectType>Local</ProjectType>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F7E21005-385E-43DF-BD66-387DB450A2E2}</ProjectGuid>
-    <AssemblyName>openpgp-async</AssemblyName>
+    <ProjectGuid>{F7E21003-385E-43DF-BD66-387DB450A2E2}</ProjectGuid>
+    <AssemblyName>ezrand-async</AssemblyName>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
     <DelaySign>false</DelaySign>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <OutputFileFolder>.\openpgp-async</OutputFileFolder>
-    <RootNamespace>openpgp</RootNamespace>
+    <OutputFileFolder>.\ezrand-async</OutputFileFolder>
+    <RootNamespace>ezrand</RootNamespace>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
   </PropertyGroup>
@@ -23,6 +23,6 @@
     <PackageReference Include="nsoftware.IPWorksEncrypt" Version="22.*" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="openpgp-async.cs" />
+    <Compile Include="ezrand-async.cs" />
   </ItemGroup>
 </Project>

@@ -8,7 +8,7 @@
   "main": "encrypt.js",
   "dependencies": {
     "full-icu": "*",
-    "ipworksencrypt": "^22.0.8544"
+    "ipworksencrypt": "^22.0.8579"
   },
   "scripts": {
     "encrypt": "node encrypt.js"
